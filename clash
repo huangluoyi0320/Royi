@@ -1,9 +1,9 @@
 #
 #-------------------------------------------------------------#
 #  创建人：长风
-#  创建时间：2022-06-23 00:18:48
+#  创建时间：2022-06-23 01:09:17
 #  模版：v2rayse默认模版
-#  节点数量：22
+#  节点数量：14
 #  油管：https://tt.vg/PzDVz
 #  免费节点 & 工具：https://v2rayse.com
 #  电报频道：https://t.me/changfengchannel
@@ -31,14 +31,6 @@ proxies:
   - {"type":"trojan","name":"🇺🇸+US+5｜openit.ml","server":"gb.v2yyds.com","port":32911,"password":"90a0dcfe-f7bc-49ba-a72d-762959a03c9f","udp":true,"skip-cert-verify":true,"sni":"gb.v2yyds.com"}
   - {"type":"trojan","name":"🇺🇸+US+23｜openit.ml","server":"gb.v2yyds.com","port":32912,"password":"90a0dcfe-f7bc-49ba-a72d-762959a03c9f","udp":true,"skip-cert-verify":true,"sni":"gb.v2yyds.com"}
   - {"type":"trojan","name":"🇺🇸+US+6｜openit.ml","server":"gb.v2yyds.com","port":32913,"password":"90a0dcfe-f7bc-49ba-a72d-762959a03c9f","udp":true,"skip-cert-verify":true,"sni":"gb.v2yyds.com"}
-  - {"type":"vmess","name":"🇺🇸_US_美国_1","server":"gnailiad.ga","port":"50966","uuid":"55b5f945-3cb4-4114-9e46-c23af13d361d","alterId":"0","cipher":"auto","network":"tcp","tls":true}
-  - {"type":"vmess","name":"🇰🇷韩国_0615109","server":"kr-10.freesocks5.tk","port":"55534","uuid":"0da405a2-469d-4bf3-f705-10fa12231edc","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"🇺🇸github.com/freefq-美国德克萨斯州达拉斯Oracle(Zenedge)1","server":"kr-10.freesocks5.tk","port":"55534","uuid":"0da405a2-469d-4bf3-f705-10fa12231edc","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"trojan","name":"🇨🇳+CN+17｜openit.ml","server":"gz-cm-kl.hinetwork.tw","port":11177,"password":"d46abf38-3a4c-3dfc-91e0-d8d3f1616c73","udp":true,"skip-cert-verify":true,"sni":"gz-cm-kl.hinetwork.tw"}
-  - {"type":"trojan","name":"🇨🇳+CN+13｜openit.ml","server":"gz-cm-kl.hinetwork.tw","port":11133,"password":"d46abf38-3a4c-3dfc-91e0-d8d3f1616c73","udp":true,"skip-cert-verify":true,"sni":"gz-cm-kl.hinetwork.tw"}
-  - {"type":"trojan","name":"🇨🇳+CN+19｜openit.ml","server":"gz-cm-kl.hinetwork.tw","port":11179,"password":"d46abf38-3a4c-3dfc-91e0-d8d3f1616c73","udp":true,"skip-cert-verify":true,"sni":"gz-cm-kl.hinetwork.tw"}
-  - {"type":"vmess","name":"_油管：全网最强白嫖","ws-opts":{"path":"/ws","headers":{"host":"sxqxj.cn"}},"server":"sxqxj.cn","port":"2164","uuid":"aba50dd4-5484-3b05-b14a-4661caf862d5","alterId":"4","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"🇺🇸美国_06201878","server":"51.81.223.29","port":"443","uuid":"c0156451-4efb-45e2-84fc-8d315c4650db","alterId":"32","cipher":"auto","network":"tcp"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -59,14 +51,6 @@ proxy-groups:
       - 🇺🇸+US+5｜openit.ml
       - 🇺🇸+US+23｜openit.ml
       - 🇺🇸+US+6｜openit.ml
-      - 🇺🇸_US_美国_1
-      - 🇰🇷韩国_0615109
-      - 🇺🇸github.com/freefq-美国德克萨斯州达拉斯Oracle(Zenedge)1
-      - 🇨🇳+CN+17｜openit.ml
-      - 🇨🇳+CN+13｜openit.ml
-      - 🇨🇳+CN+19｜openit.ml
-      - _油管：全网最强白嫖
-      - 🇺🇸美国_06201878
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -87,14 +71,6 @@ proxy-groups:
       - 🇺🇸+US+5｜openit.ml
       - 🇺🇸+US+23｜openit.ml
       - 🇺🇸+US+6｜openit.ml
-      - 🇺🇸_US_美国_1
-      - 🇰🇷韩国_0615109
-      - 🇺🇸github.com/freefq-美国德克萨斯州达拉斯Oracle(Zenedge)1
-      - 🇨🇳+CN+17｜openit.ml
-      - 🇨🇳+CN+13｜openit.ml
-      - 🇨🇳+CN+19｜openit.ml
-      - _油管：全网最强白嫖
-      - 🇺🇸美国_06201878
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -115,14 +91,6 @@ proxy-groups:
       - 🇺🇸+US+5｜openit.ml
       - 🇺🇸+US+23｜openit.ml
       - 🇺🇸+US+6｜openit.ml
-      - 🇺🇸_US_美国_1
-      - 🇰🇷韩国_0615109
-      - 🇺🇸github.com/freefq-美国德克萨斯州达拉斯Oracle(Zenedge)1
-      - 🇨🇳+CN+17｜openit.ml
-      - 🇨🇳+CN+13｜openit.ml
-      - 🇨🇳+CN+19｜openit.ml
-      - _油管：全网最强白嫖
-      - 🇺🇸美国_06201878
   - name: 📲 电报信息
     type: select
     proxies:
@@ -142,14 +110,6 @@ proxy-groups:
       - 🇺🇸+US+5｜openit.ml
       - 🇺🇸+US+23｜openit.ml
       - 🇺🇸+US+6｜openit.ml
-      - 🇺🇸_US_美国_1
-      - 🇰🇷韩国_0615109
-      - 🇺🇸github.com/freefq-美国德克萨斯州达拉斯Oracle(Zenedge)1
-      - 🇨🇳+CN+17｜openit.ml
-      - 🇨🇳+CN+13｜openit.ml
-      - 🇨🇳+CN+19｜openit.ml
-      - _油管：全网最强白嫖
-      - 🇺🇸美国_06201878
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -169,14 +129,6 @@ proxy-groups:
       - 🇺🇸+US+5｜openit.ml
       - 🇺🇸+US+23｜openit.ml
       - 🇺🇸+US+6｜openit.ml
-      - 🇺🇸_US_美国_1
-      - 🇰🇷韩国_0615109
-      - 🇺🇸github.com/freefq-美国德克萨斯州达拉斯Oracle(Zenedge)1
-      - 🇨🇳+CN+17｜openit.ml
-      - 🇨🇳+CN+13｜openit.ml
-      - 🇨🇳+CN+19｜openit.ml
-      - _油管：全网最强白嫖
-      - 🇺🇸美国_06201878
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -196,14 +148,6 @@ proxy-groups:
       - 🇺🇸+US+5｜openit.ml
       - 🇺🇸+US+23｜openit.ml
       - 🇺🇸+US+6｜openit.ml
-      - 🇺🇸_US_美国_1
-      - 🇰🇷韩国_0615109
-      - 🇺🇸github.com/freefq-美国德克萨斯州达拉斯Oracle(Zenedge)1
-      - 🇨🇳+CN+17｜openit.ml
-      - 🇨🇳+CN+13｜openit.ml
-      - 🇨🇳+CN+19｜openit.ml
-      - _油管：全网最强白嫖
-      - 🇺🇸美国_06201878
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -240,14 +184,6 @@ proxy-groups:
       - 🇺🇸+US+5｜openit.ml
       - 🇺🇸+US+23｜openit.ml
       - 🇺🇸+US+6｜openit.ml
-      - 🇺🇸_US_美国_1
-      - 🇰🇷韩国_0615109
-      - 🇺🇸github.com/freefq-美国德克萨斯州达拉斯Oracle(Zenedge)1
-      - 🇨🇳+CN+17｜openit.ml
-      - 🇨🇳+CN+13｜openit.ml
-      - 🇨🇳+CN+19｜openit.ml
-      - _油管：全网最强白嫖
-      - 🇺🇸美国_06201878
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
