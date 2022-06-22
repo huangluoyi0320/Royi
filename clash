@@ -1,3 +1,15 @@
+#
+#-------------------------------------------------------------#
+#  创建人：长风
+#  创建时间：2022-06-23 00:18:48
+#  模版：v2rayse默认模版
+#  节点数量：22
+#  油管：https://tt.vg/PzDVz
+#  免费节点 & 工具：https://v2rayse.com
+#  电报频道：https://t.me/changfengchannel
+#  电报群：https://t.me/changfengshare
+#-------------------------------------------------------------#
+#
 port: 7890
 socks-port: 7891
 allow-lan: true
@@ -5,403 +17,193 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"type":"vmess","name":"TW02-V2-直连_1","ws-opts":{"path":"/live","headers":{"host":"cctv.com"}},"server":"tw02.henet.cyou","port":"20000","uuid":"0143a378-36b2-45cf-a0ac-e248373f6e2b","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"TW02-V2-直连_2","ws-opts":{"path":"/live","headers":{"host":"cctv.com"}},"server":"tw02.henet.cyou","port":"20000","uuid":"5e76e32e-5de6-4821-91c3-a10080fade62","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"TW02-V2-直连_3","ws-opts":{"path":"/live","headers":{"host":"cctv.com"}},"server":"tw02.henet.cyou","port":"20000","uuid":"2b4ee262-ce60-442a-9c54-5c2193964113","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"_油管：全网最强白嫖_1","ws-opts":{"path":"/ray","headers":{"host":"330tw.fans8.xyz"}},"server":"330tw.fans8.xyz","port":"443","uuid":"7f4ff2e1-c08f-35bd-afe7-4a6a386907aa","alterId":"2","cipher":"auto","network":"ws","tls":true}
-  - {"type":"trojan","name":"这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)_1","server":"67tw01.fans8.xyz","port":443,"password":"08445e6d-0a42-4433-8565-2e4b7de180ac","udp":true,"skip-cert-verify":true}
-  - {"type":"vmess","name":"TW02-V2-直连_4","ws-opts":{"path":"/live","headers":{"host":"cctv.com"}},"server":"tw02.henet.cyou","port":"20000","uuid":"9be75dda-8238-46b5-ba87-12e749d693dc","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"🇭🇰香港_0615179","ws-opts":{"path":"/images","headers":{"host":"v.qq.com"}},"server":"dnsfreexianggang01.gleeze.com","port":"20942","uuid":"792f4487-cf5e-4250-aa00-c3f8b19a984a","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"🇭🇰香港_0615400","ws-opts":{"path":"/images","headers":{"host":"v.qq.com"}},"server":"dnsfreexianggang01.gleeze.com","port":"80","uuid":"26467dec-9f2b-4114-9c42-c8cc97493690","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"🇺🇸美国_0615655","ws-opts":{"path":"/VTd4o3Kj/"},"server":"104.149.154.154","port":"25966","uuid":"ca06e0f0-ca6e-418f-800d-97b23ba51bca","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"trojan","name":"92_1","server":"t1tw.500ml.top","port":504,"password":"e87bbb7f-2601-3097-a667-9bd8efc5a0f7","udp":true,"skip-cert-verify":true}
-  - {"type":"vmess","name":"这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)_2","server":"146.56.108.108","port":"26113","uuid":"1071810b-8a51-4fba-de7f-1efe88c87ea8","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"ss","name":"🇺🇸+美国2","server":"36.139.154.17","port":45190,"cipher":"chacha20-ietf-poly1305","password":"164ff81d-7ac4-48c5-b346-260a5ffb7f9d"}
-  - {"type":"vmess","name":"_油管：全网最强白嫖_2","ws-opts":{"path":"/VTd4o3Kj/","headers":{"host":"aweikeji-YouTube"}},"server":"104.149.154.154","port":"25966","uuid":"ca06e0f0-ca6e-418f-800d-97b23ba51bca","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"trojan","name":"92_2","server":"103.195.4.36","port":443,"password":"563b47e2-1773-40fd-8d93-7d1b22cd20fd","udp":true,"skip-cert-verify":true,"sni":"trojan-kamatera-hk.kinhproxy.com"}
-  - {"type":"vmess","name":"_油管：全网最强白嫖_3","server":"51.81.223.10","port":"443","uuid":"c0156451-4efb-45e2-84fc-8d315c4650db","alterId":"32","cipher":"auto","network":"tcp"}
-  - {"type":"ss","name":"106","server":"zh01lv3uk01.feiguayun.xyz","port":50011,"cipher":"aes-256-gcm","password":"efafd384-706a-4539-a169-5726c3d51516"}
-  - {"type":"ss","name":"JP_8119+@WangCai_1","server":"85.208.108.20","port":8119,"cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
-  - {"type":"ss","name":"JP_8000+@WangCai_1","server":"85.208.108.20","port":8000,"cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
-  - {"type":"ss","name":"JP_6697+@WangCai_1","server":"85.208.108.20","port":6697,"cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
-  - {"type":"ss","name":"JP_8009+@WangCai_1","server":"85.208.108.20","port":8009,"cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
-  - {"type":"ss","name":"JP_0443+@WangCai_1","server":"85.208.108.20","port":443,"cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
-  - {"type":"ss","name":"JP_8881+@WangCai_1","server":"85.208.108.20","port":8881,"cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
-  - {"type":"ss","name":"JP_7001+@WangCai_1","server":"85.208.108.20","port":7001,"cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
-  - {"type":"ss","name":"JP_7306+@WangCai_1","server":"85.208.108.20","port":7306,"cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
-  - {"type":"ss","name":"JP_9101+@WangCai_1","server":"85.208.108.20","port":9101,"cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
-  - {"type":"ss","name":"JP_8008+@WangCai_1","server":"85.208.108.20","port":8008,"cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
-  - {"type":"ss","name":"JP_6379+@WangCai_1","server":"85.208.108.20","port":6379,"cipher":"aes-256-gcm","password":"zDNVedRFPQexG9v"}
-  - {"type":"ss","name":"JP_5500+@WangCai_1","server":"85.208.108.20","port":5500,"cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
-  - {"type":"ss","name":"JP_8882+@WangCai_1","server":"85.208.108.20","port":8882,"cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
-  - {"type":"ss","name":"JP_8888+@WangCai_1","server":"85.208.108.20","port":8888,"cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"type":"ss","name":"JP_6679+@WangCai_1","server":"85.208.108.20","port":6679,"cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
-  - {"type":"ss","name":"JP_7307+@WangCai_1","server":"85.208.108.20","port":7307,"cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
-  - {"type":"ss","name":"JP_2376+@WangCai_1","server":"85.208.108.20","port":2376,"cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
-  - {"type":"ss","name":"JP_8080+@WangCai_1","server":"85.208.108.20","port":8080,"cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
-  - {"type":"ss","name":"JP_5003+@WangCai_1","server":"85.208.108.20","port":5003,"cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
-  - {"type":"ss","name":"JP_9102+@WangCai_1","server":"85.208.108.20","port":9102,"cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
-  - {"type":"ss","name":"JP_8118+@WangCai_1","server":"85.208.108.20","port":8118,"cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
-  - {"type":"ss","name":"JP_5001+@WangCai_1","server":"85.208.108.20","port":5001,"cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"type":"ss","name":"JP_5004+@WangCai_1","server":"85.208.108.20","port":5004,"cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
-  - {"type":"ss","name":"JP_5000+@WangCai_1","server":"85.208.108.20","port":5000,"cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"type":"ss","name":"JP_8090+@WangCai_1","server":"85.208.108.20","port":8090,"cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
-  - {"type":"ss","name":"JP_5600+@WangCai_1","server":"85.208.108.20","port":5600,"cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"type":"ss","name":"JP_3306+@WangCai_1","server":"85.208.108.20","port":3306,"cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"type":"ss","name":"JP_7002+@WangCai_1","server":"85.208.108.20","port":7002,"cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
-  - {"type":"ss","name":"JP_8091+@WangCai_1","server":"85.208.108.20","port":8091,"cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
-  - {"type":"ss","name":"JP_5601+@WangCai_1","server":"85.208.108.20","port":5601,"cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"type":"vmess","name":"🇺🇸美国_06152249","server":"51.81.223.10","port":"443","uuid":"c0156451-4efb-45e2-84fc-8d315c4650db","alterId":"32","cipher":"auto","network":"tcp"}
-  - {"type":"trojan","name":"92_3","server":"103.195.4.36","port":443,"password":"563b47e2-1773-40fd-8d93-7d1b22cd20fd","udp":true,"skip-cert-verify":true,"sni":"trojan-kamatera-hk.kinhproxy.com"}
+  - {"type":"trojan","name":"unknown+4｜openit.ml","server":"sg.v2yyds.cc","port":35212,"password":"90a0dcfe-f7bc-49ba-a72d-762959a03c9f","udp":true,"skip-cert-verify":true,"sni":"sg.v2yyds.cc"}
+  - {"type":"trojan","name":"unknown+1｜openit.ml","server":"sg.v2yyds.cc","port":35211,"password":"90a0dcfe-f7bc-49ba-a72d-762959a03c9f","udp":true,"skip-cert-verify":true,"sni":"sg.v2yyds.cc"}
+  - {"type":"trojan","name":"🇦🇺+澳大利亚+009","server":"us.v2yyds.cc","port":32911,"password":"90a0dcfe-f7bc-49ba-a72d-762959a03c9f","udp":true,"skip-cert-verify":true,"sni":"us.v2yyds.cc"}
+  - {"type":"trojan","name":"unknown+2｜openit.ml","server":"sg.v2yyds.cc","port":35213,"password":"90a0dcfe-f7bc-49ba-a72d-762959a03c9f","udp":true,"skip-cert-verify":true,"sni":"sg.v2yyds.cc"}
+  - {"type":"trojan","name":"🇦🇺+AU+3｜openit.ml","server":"us.v2yyds.cc","port":32912,"password":"90a0dcfe-f7bc-49ba-a72d-762959a03c9f","udp":true,"skip-cert-verify":true,"sni":"us.v2yyds.cc"}
+  - {"type":"trojan","name":"🇦🇺+澳大利亚+010","server":"cnus.v2yyds.cc","port":32913,"password":"90a0dcfe-f7bc-49ba-a72d-762959a03c9f","udp":true,"skip-cert-verify":true,"sni":"cnus.v2yyds.cc"}
+  - {"type":"trojan","name":"unknown+3｜openit.ml","server":"sg.v2yyds.cc","port":35214,"password":"90a0dcfe-f7bc-49ba-a72d-762959a03c9f","udp":true,"skip-cert-verify":true,"sni":"sg.v2yyds.cc"}
+  - {"type":"trojan","name":"🇺🇸+US+17｜openit.ml","server":"tj-sg02.yiyodns.xyz","port":443,"password":"7dafe71e-2be6-302f-bdfc-e6319a3299bc","udp":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)_1","server":"kr-07.freesocks5.tk","port":"28996","uuid":"97db7c58-0573-481a-c90c-bc8e41b6b89b","alterId":"0","cipher":"auto","network":"tcp"}
   - {"type":"vmess","name":"🇺🇸美国_06152305","ws-opts":{"path":"/VTd4o3Kj/","headers":{"host":"t.me/mengge88888888"}},"server":"104.149.154.154","port":"25966","uuid":"ca06e0f0-ca6e-418f-800d-97b23ba51bca","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"🇺🇸美国_06151244","ws-opts":{"path":"/vmess-share/?ed=2048","headers":{"host":"ruvds.testx.eu.org"}},"server":"ruvds.testx.eu.org","port":"443","uuid":"0e7036c1-6de1-4a83-ef4f-e0d56c67fa10","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"🇪🇺欧洲(油管:破解资源君2.0)","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"ingress-i1.onebox6.org"}},"server":"ingress-i1.onebox6.org","port":"38701","uuid":"79386685-16da-327c-9e14-aa6d702d86bc","alterId":"1","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"_油管：全网最强白嫖_4","ws-opts":{"path":"/ws","headers":{"host":"sxqxj.cn"}},"server":"sxqxj.cn","port":"2164","uuid":"aba50dd4-5484-3b05-b14a-4661caf862d5","alterId":"4","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)_2","server":"kr-07.freesocks5.tk","port":"28996","uuid":"97db7c58-0573-481a-c90c-bc8e41b6b89b","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"trojan","name":"🇺🇸+US+5｜openit.ml","server":"gb.v2yyds.com","port":32911,"password":"90a0dcfe-f7bc-49ba-a72d-762959a03c9f","udp":true,"skip-cert-verify":true,"sni":"gb.v2yyds.com"}
+  - {"type":"trojan","name":"🇺🇸+US+23｜openit.ml","server":"gb.v2yyds.com","port":32912,"password":"90a0dcfe-f7bc-49ba-a72d-762959a03c9f","udp":true,"skip-cert-verify":true,"sni":"gb.v2yyds.com"}
+  - {"type":"trojan","name":"🇺🇸+US+6｜openit.ml","server":"gb.v2yyds.com","port":32913,"password":"90a0dcfe-f7bc-49ba-a72d-762959a03c9f","udp":true,"skip-cert-verify":true,"sni":"gb.v2yyds.com"}
+  - {"type":"vmess","name":"🇺🇸_US_美国_1","server":"gnailiad.ga","port":"50966","uuid":"55b5f945-3cb4-4114-9e46-c23af13d361d","alterId":"0","cipher":"auto","network":"tcp","tls":true}
+  - {"type":"vmess","name":"🇰🇷韩国_0615109","server":"kr-10.freesocks5.tk","port":"55534","uuid":"0da405a2-469d-4bf3-f705-10fa12231edc","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"🇺🇸github.com/freefq-美国德克萨斯州达拉斯Oracle(Zenedge)1","server":"kr-10.freesocks5.tk","port":"55534","uuid":"0da405a2-469d-4bf3-f705-10fa12231edc","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"trojan","name":"🇨🇳+CN+17｜openit.ml","server":"gz-cm-kl.hinetwork.tw","port":11177,"password":"d46abf38-3a4c-3dfc-91e0-d8d3f1616c73","udp":true,"skip-cert-verify":true,"sni":"gz-cm-kl.hinetwork.tw"}
+  - {"type":"trojan","name":"🇨🇳+CN+13｜openit.ml","server":"gz-cm-kl.hinetwork.tw","port":11133,"password":"d46abf38-3a4c-3dfc-91e0-d8d3f1616c73","udp":true,"skip-cert-verify":true,"sni":"gz-cm-kl.hinetwork.tw"}
+  - {"type":"trojan","name":"🇨🇳+CN+19｜openit.ml","server":"gz-cm-kl.hinetwork.tw","port":11179,"password":"d46abf38-3a4c-3dfc-91e0-d8d3f1616c73","udp":true,"skip-cert-verify":true,"sni":"gz-cm-kl.hinetwork.tw"}
+  - {"type":"vmess","name":"_油管：全网最强白嫖","ws-opts":{"path":"/ws","headers":{"host":"sxqxj.cn"}},"server":"sxqxj.cn","port":"2164","uuid":"aba50dd4-5484-3b05-b14a-4661caf862d5","alterId":"4","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"🇺🇸美国_06201878","server":"51.81.223.29","port":"443","uuid":"c0156451-4efb-45e2-84fc-8d315c4650db","alterId":"32","cipher":"auto","network":"tcp"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - TW02-V2-直连_1
-      - TW02-V2-直连_2
-      - TW02-V2-直连_3
-      - _油管：全网最强白嫖_1
+      - unknown+4｜openit.ml
+      - unknown+1｜openit.ml
+      - 🇦🇺+澳大利亚+009
+      - unknown+2｜openit.ml
+      - 🇦🇺+AU+3｜openit.ml
+      - 🇦🇺+澳大利亚+010
+      - unknown+3｜openit.ml
+      - 🇺🇸+US+17｜openit.ml
       - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)_1
-      - TW02-V2-直连_4
-      - 🇭🇰香港_0615179
-      - 🇭🇰香港_0615400
-      - 🇺🇸美国_0615655
-      - '92_1'
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)_2
-      - 🇺🇸+美国2
-      - _油管：全网最强白嫖_2
-      - '92_2'
-      - _油管：全网最强白嫖_3
-      - '106'
-      - JP_8119+@WangCai_1
-      - JP_8000+@WangCai_1
-      - JP_6697+@WangCai_1
-      - JP_8009+@WangCai_1
-      - JP_0443+@WangCai_1
-      - JP_8881+@WangCai_1
-      - JP_7001+@WangCai_1
-      - JP_7306+@WangCai_1
-      - JP_9101+@WangCai_1
-      - JP_8008+@WangCai_1
-      - JP_6379+@WangCai_1
-      - JP_5500+@WangCai_1
-      - JP_8882+@WangCai_1
-      - JP_8888+@WangCai_1
-      - JP_6679+@WangCai_1
-      - JP_7307+@WangCai_1
-      - JP_2376+@WangCai_1
-      - JP_8080+@WangCai_1
-      - JP_5003+@WangCai_1
-      - JP_9102+@WangCai_1
-      - JP_8118+@WangCai_1
-      - JP_5001+@WangCai_1
-      - JP_5004+@WangCai_1
-      - JP_5000+@WangCai_1
-      - JP_8090+@WangCai_1
-      - JP_5600+@WangCai_1
-      - JP_3306+@WangCai_1
-      - JP_7002+@WangCai_1
-      - JP_8091+@WangCai_1
-      - JP_5601+@WangCai_1
-      - 🇺🇸美国_06152249
-      - '92_3'
       - 🇺🇸美国_06152305
-      - 🇺🇸美国_06151244
-      - 🇪🇺欧洲(油管:破解资源君2.0)
-      - _油管：全网最强白嫖_4
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)_2
+      - 🇺🇸+US+5｜openit.ml
+      - 🇺🇸+US+23｜openit.ml
+      - 🇺🇸+US+6｜openit.ml
+      - 🇺🇸_US_美国_1
+      - 🇰🇷韩国_0615109
+      - 🇺🇸github.com/freefq-美国德克萨斯州达拉斯Oracle(Zenedge)1
+      - 🇨🇳+CN+17｜openit.ml
+      - 🇨🇳+CN+13｜openit.ml
+      - 🇨🇳+CN+19｜openit.ml
+      - _油管：全网最强白嫖
+      - 🇺🇸美国_06201878
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - TW02-V2-直连_1
-      - TW02-V2-直连_2
-      - TW02-V2-直连_3
-      - _油管：全网最强白嫖_1
+      - unknown+4｜openit.ml
+      - unknown+1｜openit.ml
+      - 🇦🇺+澳大利亚+009
+      - unknown+2｜openit.ml
+      - 🇦🇺+AU+3｜openit.ml
+      - 🇦🇺+澳大利亚+010
+      - unknown+3｜openit.ml
+      - 🇺🇸+US+17｜openit.ml
       - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)_1
-      - TW02-V2-直连_4
-      - 🇭🇰香港_0615179
-      - 🇭🇰香港_0615400
-      - 🇺🇸美国_0615655
-      - '92_1'
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)_2
-      - 🇺🇸+美国2
-      - _油管：全网最强白嫖_2
-      - '92_2'
-      - _油管：全网最强白嫖_3
-      - '106'
-      - JP_8119+@WangCai_1
-      - JP_8000+@WangCai_1
-      - JP_6697+@WangCai_1
-      - JP_8009+@WangCai_1
-      - JP_0443+@WangCai_1
-      - JP_8881+@WangCai_1
-      - JP_7001+@WangCai_1
-      - JP_7306+@WangCai_1
-      - JP_9101+@WangCai_1
-      - JP_8008+@WangCai_1
-      - JP_6379+@WangCai_1
-      - JP_5500+@WangCai_1
-      - JP_8882+@WangCai_1
-      - JP_8888+@WangCai_1
-      - JP_6679+@WangCai_1
-      - JP_7307+@WangCai_1
-      - JP_2376+@WangCai_1
-      - JP_8080+@WangCai_1
-      - JP_5003+@WangCai_1
-      - JP_9102+@WangCai_1
-      - JP_8118+@WangCai_1
-      - JP_5001+@WangCai_1
-      - JP_5004+@WangCai_1
-      - JP_5000+@WangCai_1
-      - JP_8090+@WangCai_1
-      - JP_5600+@WangCai_1
-      - JP_3306+@WangCai_1
-      - JP_7002+@WangCai_1
-      - JP_8091+@WangCai_1
-      - JP_5601+@WangCai_1
-      - 🇺🇸美国_06152249
-      - '92_3'
       - 🇺🇸美国_06152305
-      - 🇺🇸美国_06151244
-      - 🇪🇺欧洲(油管:破解资源君2.0)
-      - _油管：全网最强白嫖_4
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)_2
+      - 🇺🇸+US+5｜openit.ml
+      - 🇺🇸+US+23｜openit.ml
+      - 🇺🇸+US+6｜openit.ml
+      - 🇺🇸_US_美国_1
+      - 🇰🇷韩国_0615109
+      - 🇺🇸github.com/freefq-美国德克萨斯州达拉斯Oracle(Zenedge)1
+      - 🇨🇳+CN+17｜openit.ml
+      - 🇨🇳+CN+13｜openit.ml
+      - 🇨🇳+CN+19｜openit.ml
+      - _油管：全网最强白嫖
+      - 🇺🇸美国_06201878
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - TW02-V2-直连_1
-      - TW02-V2-直连_2
-      - TW02-V2-直连_3
-      - _油管：全网最强白嫖_1
+      - unknown+4｜openit.ml
+      - unknown+1｜openit.ml
+      - 🇦🇺+澳大利亚+009
+      - unknown+2｜openit.ml
+      - 🇦🇺+AU+3｜openit.ml
+      - 🇦🇺+澳大利亚+010
+      - unknown+3｜openit.ml
+      - 🇺🇸+US+17｜openit.ml
       - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)_1
-      - TW02-V2-直连_4
-      - 🇭🇰香港_0615179
-      - 🇭🇰香港_0615400
-      - 🇺🇸美国_0615655
-      - '92_1'
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)_2
-      - 🇺🇸+美国2
-      - _油管：全网最强白嫖_2
-      - '92_2'
-      - _油管：全网最强白嫖_3
-      - '106'
-      - JP_8119+@WangCai_1
-      - JP_8000+@WangCai_1
-      - JP_6697+@WangCai_1
-      - JP_8009+@WangCai_1
-      - JP_0443+@WangCai_1
-      - JP_8881+@WangCai_1
-      - JP_7001+@WangCai_1
-      - JP_7306+@WangCai_1
-      - JP_9101+@WangCai_1
-      - JP_8008+@WangCai_1
-      - JP_6379+@WangCai_1
-      - JP_5500+@WangCai_1
-      - JP_8882+@WangCai_1
-      - JP_8888+@WangCai_1
-      - JP_6679+@WangCai_1
-      - JP_7307+@WangCai_1
-      - JP_2376+@WangCai_1
-      - JP_8080+@WangCai_1
-      - JP_5003+@WangCai_1
-      - JP_9102+@WangCai_1
-      - JP_8118+@WangCai_1
-      - JP_5001+@WangCai_1
-      - JP_5004+@WangCai_1
-      - JP_5000+@WangCai_1
-      - JP_8090+@WangCai_1
-      - JP_5600+@WangCai_1
-      - JP_3306+@WangCai_1
-      - JP_7002+@WangCai_1
-      - JP_8091+@WangCai_1
-      - JP_5601+@WangCai_1
-      - 🇺🇸美国_06152249
-      - '92_3'
       - 🇺🇸美国_06152305
-      - 🇺🇸美国_06151244
-      - 🇪🇺欧洲(油管:破解资源君2.0)
-      - _油管：全网最强白嫖_4
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)_2
+      - 🇺🇸+US+5｜openit.ml
+      - 🇺🇸+US+23｜openit.ml
+      - 🇺🇸+US+6｜openit.ml
+      - 🇺🇸_US_美国_1
+      - 🇰🇷韩国_0615109
+      - 🇺🇸github.com/freefq-美国德克萨斯州达拉斯Oracle(Zenedge)1
+      - 🇨🇳+CN+17｜openit.ml
+      - 🇨🇳+CN+13｜openit.ml
+      - 🇨🇳+CN+19｜openit.ml
+      - _油管：全网最强白嫖
+      - 🇺🇸美国_06201878
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - TW02-V2-直连_1
-      - TW02-V2-直连_2
-      - TW02-V2-直连_3
-      - _油管：全网最强白嫖_1
+      - unknown+4｜openit.ml
+      - unknown+1｜openit.ml
+      - 🇦🇺+澳大利亚+009
+      - unknown+2｜openit.ml
+      - 🇦🇺+AU+3｜openit.ml
+      - 🇦🇺+澳大利亚+010
+      - unknown+3｜openit.ml
+      - 🇺🇸+US+17｜openit.ml
       - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)_1
-      - TW02-V2-直连_4
-      - 🇭🇰香港_0615179
-      - 🇭🇰香港_0615400
-      - 🇺🇸美国_0615655
-      - '92_1'
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)_2
-      - 🇺🇸+美国2
-      - _油管：全网最强白嫖_2
-      - '92_2'
-      - _油管：全网最强白嫖_3
-      - '106'
-      - JP_8119+@WangCai_1
-      - JP_8000+@WangCai_1
-      - JP_6697+@WangCai_1
-      - JP_8009+@WangCai_1
-      - JP_0443+@WangCai_1
-      - JP_8881+@WangCai_1
-      - JP_7001+@WangCai_1
-      - JP_7306+@WangCai_1
-      - JP_9101+@WangCai_1
-      - JP_8008+@WangCai_1
-      - JP_6379+@WangCai_1
-      - JP_5500+@WangCai_1
-      - JP_8882+@WangCai_1
-      - JP_8888+@WangCai_1
-      - JP_6679+@WangCai_1
-      - JP_7307+@WangCai_1
-      - JP_2376+@WangCai_1
-      - JP_8080+@WangCai_1
-      - JP_5003+@WangCai_1
-      - JP_9102+@WangCai_1
-      - JP_8118+@WangCai_1
-      - JP_5001+@WangCai_1
-      - JP_5004+@WangCai_1
-      - JP_5000+@WangCai_1
-      - JP_8090+@WangCai_1
-      - JP_5600+@WangCai_1
-      - JP_3306+@WangCai_1
-      - JP_7002+@WangCai_1
-      - JP_8091+@WangCai_1
-      - JP_5601+@WangCai_1
-      - 🇺🇸美国_06152249
-      - '92_3'
       - 🇺🇸美国_06152305
-      - 🇺🇸美国_06151244
-      - 🇪🇺欧洲(油管:破解资源君2.0)
-      - _油管：全网最强白嫖_4
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)_2
+      - 🇺🇸+US+5｜openit.ml
+      - 🇺🇸+US+23｜openit.ml
+      - 🇺🇸+US+6｜openit.ml
+      - 🇺🇸_US_美国_1
+      - 🇰🇷韩国_0615109
+      - 🇺🇸github.com/freefq-美国德克萨斯州达拉斯Oracle(Zenedge)1
+      - 🇨🇳+CN+17｜openit.ml
+      - 🇨🇳+CN+13｜openit.ml
+      - 🇨🇳+CN+19｜openit.ml
+      - _油管：全网最强白嫖
+      - 🇺🇸美国_06201878
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - TW02-V2-直连_1
-      - TW02-V2-直连_2
-      - TW02-V2-直连_3
-      - _油管：全网最强白嫖_1
+      - unknown+4｜openit.ml
+      - unknown+1｜openit.ml
+      - 🇦🇺+澳大利亚+009
+      - unknown+2｜openit.ml
+      - 🇦🇺+AU+3｜openit.ml
+      - 🇦🇺+澳大利亚+010
+      - unknown+3｜openit.ml
+      - 🇺🇸+US+17｜openit.ml
       - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)_1
-      - TW02-V2-直连_4
-      - 🇭🇰香港_0615179
-      - 🇭🇰香港_0615400
-      - 🇺🇸美国_0615655
-      - '92_1'
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)_2
-      - 🇺🇸+美国2
-      - _油管：全网最强白嫖_2
-      - '92_2'
-      - _油管：全网最强白嫖_3
-      - '106'
-      - JP_8119+@WangCai_1
-      - JP_8000+@WangCai_1
-      - JP_6697+@WangCai_1
-      - JP_8009+@WangCai_1
-      - JP_0443+@WangCai_1
-      - JP_8881+@WangCai_1
-      - JP_7001+@WangCai_1
-      - JP_7306+@WangCai_1
-      - JP_9101+@WangCai_1
-      - JP_8008+@WangCai_1
-      - JP_6379+@WangCai_1
-      - JP_5500+@WangCai_1
-      - JP_8882+@WangCai_1
-      - JP_8888+@WangCai_1
-      - JP_6679+@WangCai_1
-      - JP_7307+@WangCai_1
-      - JP_2376+@WangCai_1
-      - JP_8080+@WangCai_1
-      - JP_5003+@WangCai_1
-      - JP_9102+@WangCai_1
-      - JP_8118+@WangCai_1
-      - JP_5001+@WangCai_1
-      - JP_5004+@WangCai_1
-      - JP_5000+@WangCai_1
-      - JP_8090+@WangCai_1
-      - JP_5600+@WangCai_1
-      - JP_3306+@WangCai_1
-      - JP_7002+@WangCai_1
-      - JP_8091+@WangCai_1
-      - JP_5601+@WangCai_1
-      - 🇺🇸美国_06152249
-      - '92_3'
       - 🇺🇸美国_06152305
-      - 🇺🇸美国_06151244
-      - 🇪🇺欧洲(油管:破解资源君2.0)
-      - _油管：全网最强白嫖_4
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)_2
+      - 🇺🇸+US+5｜openit.ml
+      - 🇺🇸+US+23｜openit.ml
+      - 🇺🇸+US+6｜openit.ml
+      - 🇺🇸_US_美国_1
+      - 🇰🇷韩国_0615109
+      - 🇺🇸github.com/freefq-美国德克萨斯州达拉斯Oracle(Zenedge)1
+      - 🇨🇳+CN+17｜openit.ml
+      - 🇨🇳+CN+13｜openit.ml
+      - 🇨🇳+CN+19｜openit.ml
+      - _油管：全网最强白嫖
+      - 🇺🇸美国_06201878
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - TW02-V2-直连_1
-      - TW02-V2-直连_2
-      - TW02-V2-直连_3
-      - _油管：全网最强白嫖_1
+      - unknown+4｜openit.ml
+      - unknown+1｜openit.ml
+      - 🇦🇺+澳大利亚+009
+      - unknown+2｜openit.ml
+      - 🇦🇺+AU+3｜openit.ml
+      - 🇦🇺+澳大利亚+010
+      - unknown+3｜openit.ml
+      - 🇺🇸+US+17｜openit.ml
       - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)_1
-      - TW02-V2-直连_4
-      - 🇭🇰香港_0615179
-      - 🇭🇰香港_0615400
-      - 🇺🇸美国_0615655
-      - '92_1'
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)_2
-      - 🇺🇸+美国2
-      - _油管：全网最强白嫖_2
-      - '92_2'
-      - _油管：全网最强白嫖_3
-      - '106'
-      - JP_8119+@WangCai_1
-      - JP_8000+@WangCai_1
-      - JP_6697+@WangCai_1
-      - JP_8009+@WangCai_1
-      - JP_0443+@WangCai_1
-      - JP_8881+@WangCai_1
-      - JP_7001+@WangCai_1
-      - JP_7306+@WangCai_1
-      - JP_9101+@WangCai_1
-      - JP_8008+@WangCai_1
-      - JP_6379+@WangCai_1
-      - JP_5500+@WangCai_1
-      - JP_8882+@WangCai_1
-      - JP_8888+@WangCai_1
-      - JP_6679+@WangCai_1
-      - JP_7307+@WangCai_1
-      - JP_2376+@WangCai_1
-      - JP_8080+@WangCai_1
-      - JP_5003+@WangCai_1
-      - JP_9102+@WangCai_1
-      - JP_8118+@WangCai_1
-      - JP_5001+@WangCai_1
-      - JP_5004+@WangCai_1
-      - JP_5000+@WangCai_1
-      - JP_8090+@WangCai_1
-      - JP_5600+@WangCai_1
-      - JP_3306+@WangCai_1
-      - JP_7002+@WangCai_1
-      - JP_8091+@WangCai_1
-      - JP_5601+@WangCai_1
-      - 🇺🇸美国_06152249
-      - '92_3'
       - 🇺🇸美国_06152305
-      - 🇺🇸美国_06151244
-      - 🇪🇺欧洲(油管:破解资源君2.0)
-      - _油管：全网最强白嫖_4
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)_2
+      - 🇺🇸+US+5｜openit.ml
+      - 🇺🇸+US+23｜openit.ml
+      - 🇺🇸+US+6｜openit.ml
+      - 🇺🇸_US_美国_1
+      - 🇰🇷韩国_0615109
+      - 🇺🇸github.com/freefq-美国德克萨斯州达拉斯Oracle(Zenedge)1
+      - 🇨🇳+CN+17｜openit.ml
+      - 🇨🇳+CN+13｜openit.ml
+      - 🇨🇳+CN+19｜openit.ml
+      - _油管：全网最强白嫖
+      - 🇺🇸美国_06201878
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -424,58 +226,28 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - TW02-V2-直连_1
-      - TW02-V2-直连_2
-      - TW02-V2-直连_3
-      - _油管：全网最强白嫖_1
+      - unknown+4｜openit.ml
+      - unknown+1｜openit.ml
+      - 🇦🇺+澳大利亚+009
+      - unknown+2｜openit.ml
+      - 🇦🇺+AU+3｜openit.ml
+      - 🇦🇺+澳大利亚+010
+      - unknown+3｜openit.ml
+      - 🇺🇸+US+17｜openit.ml
       - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)_1
-      - TW02-V2-直连_4
-      - 🇭🇰香港_0615179
-      - 🇭🇰香港_0615400
-      - 🇺🇸美国_0615655
-      - '92_1'
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)_2
-      - 🇺🇸+美国2
-      - _油管：全网最强白嫖_2
-      - '92_2'
-      - _油管：全网最强白嫖_3
-      - '106'
-      - JP_8119+@WangCai_1
-      - JP_8000+@WangCai_1
-      - JP_6697+@WangCai_1
-      - JP_8009+@WangCai_1
-      - JP_0443+@WangCai_1
-      - JP_8881+@WangCai_1
-      - JP_7001+@WangCai_1
-      - JP_7306+@WangCai_1
-      - JP_9101+@WangCai_1
-      - JP_8008+@WangCai_1
-      - JP_6379+@WangCai_1
-      - JP_5500+@WangCai_1
-      - JP_8882+@WangCai_1
-      - JP_8888+@WangCai_1
-      - JP_6679+@WangCai_1
-      - JP_7307+@WangCai_1
-      - JP_2376+@WangCai_1
-      - JP_8080+@WangCai_1
-      - JP_5003+@WangCai_1
-      - JP_9102+@WangCai_1
-      - JP_8118+@WangCai_1
-      - JP_5001+@WangCai_1
-      - JP_5004+@WangCai_1
-      - JP_5000+@WangCai_1
-      - JP_8090+@WangCai_1
-      - JP_5600+@WangCai_1
-      - JP_3306+@WangCai_1
-      - JP_7002+@WangCai_1
-      - JP_8091+@WangCai_1
-      - JP_5601+@WangCai_1
-      - 🇺🇸美国_06152249
-      - '92_3'
       - 🇺🇸美国_06152305
-      - 🇺🇸美国_06151244
-      - 🇪🇺欧洲(油管:破解资源君2.0)
-      - _油管：全网最强白嫖_4
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)_2
+      - 🇺🇸+US+5｜openit.ml
+      - 🇺🇸+US+23｜openit.ml
+      - 🇺🇸+US+6｜openit.ml
+      - 🇺🇸_US_美国_1
+      - 🇰🇷韩国_0615109
+      - 🇺🇸github.com/freefq-美国德克萨斯州达拉斯Oracle(Zenedge)1
+      - 🇨🇳+CN+17｜openit.ml
+      - 🇨🇳+CN+13｜openit.ml
+      - 🇨🇳+CN+19｜openit.ml
+      - _油管：全网最强白嫖
+      - 🇺🇸美国_06201878
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
