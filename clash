@@ -1,9 +1,9 @@
 #
 #-------------------------------------------------------------#
 #  创建人：长风
-#  创建时间：2022-06-23 01:30:32
+#  创建时间：2022-06-23 12:20:29
 #  模版：v2rayse默认模版
-#  节点数量：23
+#  节点数量：17
 #  油管：https://tt.vg/PzDVz
 #  免费节点 & 工具：https://v2rayse.com
 #  电报频道：https://t.me/changfengchannel
@@ -17,200 +17,158 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
+  - {"type":"trojan","name":"unknown+4｜openit.ml","server":"sg.v2yyds.cc","port":35214,"password":"90a0dcfe-f7bc-49ba-a72d-762959a03c9f","udp":true,"skip-cert-verify":true,"sni":"sg.v2yyds.cc"}
+  - {"type":"trojan","name":"unknown+1｜openit.ml","server":"sg.v2yyds.cc","port":35211,"password":"90a0dcfe-f7bc-49ba-a72d-762959a03c9f","udp":true,"skip-cert-verify":true,"sni":"sg.v2yyds.cc"}
+  - {"type":"trojan","name":"unknown+3｜openit.ml","server":"sg.v2yyds.cc","port":35212,"password":"90a0dcfe-f7bc-49ba-a72d-762959a03c9f","udp":true,"skip-cert-verify":true,"sni":"sg.v2yyds.cc"}
   - {"type":"vmess","name":"🇨🇳_CN_中国_2","ws-opts":{"path":"/hls/cctv5phd.m3u8"},"server":"36.139.166.62","port":"2702","uuid":"6861c307-5efd-3b8a-b7fa-248ad8dde74e","alterId":"2","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"🇸🇬_CN_中国->🇸🇬_SG_新加坡_3","ws-opts":{"path":"/hls/cctv5phd.m3u8"},"server":"36.139.166.64","port":"2604","uuid":"6861c307-5efd-3b8a-b7fa-248ad8dde74e","alterId":"2","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"🇸🇬_CN_中国->🇸🇬_SG_新加坡_4","ws-opts":{"path":"/hls/cctv5phd.m3u8"},"server":"36.139.166.64","port":"2601","uuid":"6861c307-5efd-3b8a-b7fa-248ad8dde74e","alterId":"2","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"🇸🇬_CN_中国->🇸🇬_SG_新加坡_1","ws-opts":{"path":"/hls/cctv5phd.m3u8"},"server":"36.139.154.148","port":"21102","uuid":"6861c307-5efd-3b8a-b7fa-248ad8dde74e","alterId":"2","cipher":"auto","network":"ws"}
-  - {"type":"trojan","name":"🇦🇺+AU+3｜openit.ml","server":"us.v2yyds.cc","port":32912,"password":"90a0dcfe-f7bc-49ba-a72d-762959a03c9f","udp":true,"skip-cert-verify":true,"sni":"us.v2yyds.cc"}
-  - {"type":"trojan","name":"🇦🇺+澳大利亚+010","server":"cnus.v2yyds.cc","port":32913,"password":"90a0dcfe-f7bc-49ba-a72d-762959a03c9f","udp":true,"skip-cert-verify":true,"sni":"cnus.v2yyds.cc"}
-  - {"type":"trojan","name":"🇦🇺+澳大利亚+009","server":"us.v2yyds.cc","port":32911,"password":"90a0dcfe-f7bc-49ba-a72d-762959a03c9f","udp":true,"skip-cert-verify":true,"sni":"us.v2yyds.cc"}
-  - {"type":"vmess","name":"🇱🇹_CN_中国->🇱🇹_LT_立陶宛_2","ws-opts":{"path":"/hls/cctv5phd.m3u8"},"server":"36.139.166.64","port":"24058","uuid":"6861c307-5efd-3b8a-b7fa-248ad8dde74e","alterId":"2","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"🇭🇰_CN_中国->🇭🇰_HK_香港_1","ws-opts":{"path":"/hls/cctv5phd.m3u8"},"server":"36.139.166.64","port":"2703","uuid":"6861c307-5efd-3b8a-b7fa-248ad8dde74e","alterId":"2","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"🇱🇹_CN_中国->🇱🇹_LT_立陶宛_1","ws-opts":{"path":"/hls/cctv5phd.m3u8"},"server":"36.139.154.148","port":"2406","uuid":"6861c307-5efd-3b8a-b7fa-248ad8dde74e","alterId":"2","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"🇺🇸美国_06152305","ws-opts":{"path":"/VTd4o3Kj/","headers":{"host":"t.me/mengge88888888"}},"server":"104.149.154.154","port":"25966","uuid":"ca06e0f0-ca6e-418f-800d-97b23ba51bca","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"trojan","name":"🇨🇦+加拿大+001","server":"67us01.fans8.xyz","port":443,"password":"6f5e02bd-9b8f-44bc-b681-55150c102911","udp":true,"skip-cert-verify":true,"sni":"67us01.fans8.xyz"}
-  - {"type":"trojan","name":"🇺🇸+US+5｜openit.ml","server":"gb.v2yyds.com","port":32911,"password":"90a0dcfe-f7bc-49ba-a72d-762959a03c9f","udp":true,"skip-cert-verify":true,"sni":"gb.v2yyds.com"}
-  - {"type":"vmess","name":"🇺🇸美国(油管:破解资源君2.0)_1","ws-opts":{"path":"/vakzvws","headers":{"host":"ioi.xxioixx.tk"}},"server":"172.67.168.111","port":"443","uuid":"790d5a78-971c-477b-39bc-3e6908bf84dd","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"trojan","name":"🇺🇸+US+6｜openit.ml","server":"gb.v2yyds.com","port":32913,"password":"90a0dcfe-f7bc-49ba-a72d-762959a03c9f","udp":true,"skip-cert-verify":true,"sni":"gb.v2yyds.com"}
-  - {"type":"trojan","name":"🇺🇸+US+23｜openit.ml","server":"gb.v2yyds.com","port":32912,"password":"90a0dcfe-f7bc-49ba-a72d-762959a03c9f","udp":true,"skip-cert-verify":true,"sni":"gb.v2yyds.com"}
   - {"type":"vmess","name":"🇭🇰_CN_中国->🇭🇰_HK_香港_2","ws-opts":{"path":"/hls/cctv5phd.m3u8"},"server":"36.139.166.62","port":"2704","uuid":"6861c307-5efd-3b8a-b7fa-248ad8dde74e","alterId":"2","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"🇺🇸美国(油管:破解资源君2.0)_2","ws-opts":{"path":"/pngvws","headers":{"host":"guil.tk"}},"server":"172.67.166.111","port":"443","uuid":"251165d1-f3ea-8977-4fe6-96d0601f493d","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"未知_0620429","ws-opts":{"path":"/5a36cce4-0527-4d36-bf4a-6c215ef9c524-vmess","headers":{"host":"ifffffffuuuuuuus.qiqicdn2.cf"}},"server":"ifffffffuuuuuuus.qiqicdn2.cf","port":"443","uuid":"5a36cce4-0527-4d36-bf4a-6c215ef9c524","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"🇱🇹_CN_中国->🇱🇹_LT_立陶宛_1","ws-opts":{"path":"/hls/cctv5phd.m3u8"},"server":"36.139.154.148","port":"2406","uuid":"6861c307-5efd-3b8a-b7fa-248ad8dde74e","alterId":"2","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇱🇹_CN_中国->🇱🇹_LT_立陶宛_2","ws-opts":{"path":"/hls/cctv5phd.m3u8"},"server":"36.139.166.64","port":"24058","uuid":"6861c307-5efd-3b8a-b7fa-248ad8dde74e","alterId":"2","cipher":"auto","network":"ws"}
   - {"type":"vmess","name":"这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)","server":"kr-07.freesocks5.tk","port":"28996","uuid":"97db7c58-0573-481a-c90c-bc8e41b6b89b","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"🇺🇸_US_美国_1","server":"gnailiad.ga","port":"50966","uuid":"55b5f945-3cb4-4114-9e46-c23af13d361d","alterId":"0","cipher":"auto","network":"tcp","tls":true}
-  - {"type":"vmess","name":"🇸🇬_CN_中国->🇸🇬_SG_新加坡_2","ws-opts":{"path":"/hls/cctv5phd.m3u8"},"server":"36.139.154.148","port":"2602","uuid":"6861c307-5efd-3b8a-b7fa-248ad8dde74e","alterId":"2","cipher":"auto","network":"ws"}
-  - {"type":"trojan","name":"IR+1｜openit.ml","server":"de.v2yyds.com","port":32911,"password":"90a0dcfe-f7bc-49ba-a72d-762959a03c9f","udp":true,"skip-cert-verify":true,"sni":"de.v2yyds.com"}
-  - {"type":"trojan","name":"IR+2｜openit.ml","server":"de.v2yyds.com","port":32912,"password":"90a0dcfe-f7bc-49ba-a72d-762959a03c9f","udp":true,"skip-cert-verify":true,"sni":"de.v2yyds.com"}
+  - {"type":"trojan","name":"🇺🇸+US+19｜openit.ml","server":"jgwhdlb2.gaox.ml","port":443,"password":"54080134-2cba-4535-8599-95650bd9aa54","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"🇺🇸+US+26｜openit.ml","server":"gb.v2yyds.com","port":32913,"password":"90a0dcfe-f7bc-49ba-a72d-762959a03c9f","udp":true,"skip-cert-verify":true,"sni":"gb.v2yyds.com"}
+  - {"type":"vmess","name":"🇨🇳_CN_中国_1","ws-opts":{"path":"/hls/cctv5phd.m3u8"},"server":"36.139.154.148","port":"21501","uuid":"6861c307-5efd-3b8a-b7fa-248ad8dde74e","alterId":"2","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇺🇸github.com/freefq-美国德克萨斯州达拉斯Oracle(Zenedge)1","server":"kr-10.freesocks5.tk","port":"55534","uuid":"0da405a2-469d-4bf3-f705-10fa12231edc","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"trojan","name":"🇨🇳+CN+9｜openit.ml","server":"gz-cm-kl.hinetwork.tw","port":11221,"password":"d46abf38-3a4c-3dfc-91e0-d8d3f1616c73","udp":true,"skip-cert-verify":true,"sni":"gz-cm-kl.hinetwork.tw"}
+  - {"type":"trojan","name":"🇺🇸+US+25｜openit.ml","server":"gb.v2yyds.com","port":32912,"password":"90a0dcfe-f7bc-49ba-a72d-762959a03c9f","udp":true,"skip-cert-verify":true,"sni":"gb.v2yyds.com"}
+  - {"type":"trojan","name":"🇺🇸+US+14｜openit.ml","server":"sgg.2046.gq","port":4443,"password":"794871c6-022b-4498-b816-296e8a581d86","udp":true,"skip-cert-verify":true,"sni":"sgg.2046.gq"}
+  - {"type":"vmess","name":"🇰🇷韩国_0615109","server":"kr-10.freesocks5.tk","port":"55534","uuid":"0da405a2-469d-4bf3-f705-10fa12231edc","alterId":"0","cipher":"auto","network":"tcp"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
+      - unknown+4｜openit.ml
+      - unknown+1｜openit.ml
+      - unknown+3｜openit.ml
       - 🇨🇳_CN_中国_2
-      - 🇸🇬_CN_中国->🇸🇬_SG_新加坡_3
-      - 🇸🇬_CN_中国->🇸🇬_SG_新加坡_4
-      - 🇸🇬_CN_中国->🇸🇬_SG_新加坡_1
-      - 🇦🇺+AU+3｜openit.ml
-      - 🇦🇺+澳大利亚+010
-      - 🇦🇺+澳大利亚+009
-      - 🇱🇹_CN_中国->🇱🇹_LT_立陶宛_2
-      - 🇭🇰_CN_中国->🇭🇰_HK_香港_1
-      - 🇱🇹_CN_中国->🇱🇹_LT_立陶宛_1
-      - 🇺🇸美国_06152305
-      - 🇨🇦+加拿大+001
-      - 🇺🇸+US+5｜openit.ml
-      - 🇺🇸美国(油管:破解资源君2.0)_1
-      - 🇺🇸+US+6｜openit.ml
-      - 🇺🇸+US+23｜openit.ml
       - 🇭🇰_CN_中国->🇭🇰_HK_香港_2
-      - 🇺🇸美国(油管:破解资源君2.0)_2
+      - 未知_0620429
+      - 🇱🇹_CN_中国->🇱🇹_LT_立陶宛_1
+      - 🇱🇹_CN_中国->🇱🇹_LT_立陶宛_2
       - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)
-      - 🇺🇸_US_美国_1
-      - 🇸🇬_CN_中国->🇸🇬_SG_新加坡_2
-      - IR+1｜openit.ml
-      - IR+2｜openit.ml
+      - 🇺🇸+US+19｜openit.ml
+      - 🇺🇸+US+26｜openit.ml
+      - 🇨🇳_CN_中国_1
+      - 🇺🇸github.com/freefq-美国德克萨斯州达拉斯Oracle(Zenedge)1
+      - 🇨🇳+CN+9｜openit.ml
+      - 🇺🇸+US+25｜openit.ml
+      - 🇺🇸+US+14｜openit.ml
+      - 🇰🇷韩国_0615109
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
+      - unknown+4｜openit.ml
+      - unknown+1｜openit.ml
+      - unknown+3｜openit.ml
       - 🇨🇳_CN_中国_2
-      - 🇸🇬_CN_中国->🇸🇬_SG_新加坡_3
-      - 🇸🇬_CN_中国->🇸🇬_SG_新加坡_4
-      - 🇸🇬_CN_中国->🇸🇬_SG_新加坡_1
-      - 🇦🇺+AU+3｜openit.ml
-      - 🇦🇺+澳大利亚+010
-      - 🇦🇺+澳大利亚+009
-      - 🇱🇹_CN_中国->🇱🇹_LT_立陶宛_2
-      - 🇭🇰_CN_中国->🇭🇰_HK_香港_1
-      - 🇱🇹_CN_中国->🇱🇹_LT_立陶宛_1
-      - 🇺🇸美国_06152305
-      - 🇨🇦+加拿大+001
-      - 🇺🇸+US+5｜openit.ml
-      - 🇺🇸美国(油管:破解资源君2.0)_1
-      - 🇺🇸+US+6｜openit.ml
-      - 🇺🇸+US+23｜openit.ml
       - 🇭🇰_CN_中国->🇭🇰_HK_香港_2
-      - 🇺🇸美国(油管:破解资源君2.0)_2
+      - 未知_0620429
+      - 🇱🇹_CN_中国->🇱🇹_LT_立陶宛_1
+      - 🇱🇹_CN_中国->🇱🇹_LT_立陶宛_2
       - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)
-      - 🇺🇸_US_美国_1
-      - 🇸🇬_CN_中国->🇸🇬_SG_新加坡_2
-      - IR+1｜openit.ml
-      - IR+2｜openit.ml
+      - 🇺🇸+US+19｜openit.ml
+      - 🇺🇸+US+26｜openit.ml
+      - 🇨🇳_CN_中国_1
+      - 🇺🇸github.com/freefq-美国德克萨斯州达拉斯Oracle(Zenedge)1
+      - 🇨🇳+CN+9｜openit.ml
+      - 🇺🇸+US+25｜openit.ml
+      - 🇺🇸+US+14｜openit.ml
+      - 🇰🇷韩国_0615109
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - unknown+4｜openit.ml
+      - unknown+1｜openit.ml
+      - unknown+3｜openit.ml
       - 🇨🇳_CN_中国_2
-      - 🇸🇬_CN_中国->🇸🇬_SG_新加坡_3
-      - 🇸🇬_CN_中国->🇸🇬_SG_新加坡_4
-      - 🇸🇬_CN_中国->🇸🇬_SG_新加坡_1
-      - 🇦🇺+AU+3｜openit.ml
-      - 🇦🇺+澳大利亚+010
-      - 🇦🇺+澳大利亚+009
-      - 🇱🇹_CN_中国->🇱🇹_LT_立陶宛_2
-      - 🇭🇰_CN_中国->🇭🇰_HK_香港_1
-      - 🇱🇹_CN_中国->🇱🇹_LT_立陶宛_1
-      - 🇺🇸美国_06152305
-      - 🇨🇦+加拿大+001
-      - 🇺🇸+US+5｜openit.ml
-      - 🇺🇸美国(油管:破解资源君2.0)_1
-      - 🇺🇸+US+6｜openit.ml
-      - 🇺🇸+US+23｜openit.ml
       - 🇭🇰_CN_中国->🇭🇰_HK_香港_2
-      - 🇺🇸美国(油管:破解资源君2.0)_2
+      - 未知_0620429
+      - 🇱🇹_CN_中国->🇱🇹_LT_立陶宛_1
+      - 🇱🇹_CN_中国->🇱🇹_LT_立陶宛_2
       - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)
-      - 🇺🇸_US_美国_1
-      - 🇸🇬_CN_中国->🇸🇬_SG_新加坡_2
-      - IR+1｜openit.ml
-      - IR+2｜openit.ml
+      - 🇺🇸+US+19｜openit.ml
+      - 🇺🇸+US+26｜openit.ml
+      - 🇨🇳_CN_中国_1
+      - 🇺🇸github.com/freefq-美国德克萨斯州达拉斯Oracle(Zenedge)1
+      - 🇨🇳+CN+9｜openit.ml
+      - 🇺🇸+US+25｜openit.ml
+      - 🇺🇸+US+14｜openit.ml
+      - 🇰🇷韩国_0615109
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
+      - unknown+4｜openit.ml
+      - unknown+1｜openit.ml
+      - unknown+3｜openit.ml
       - 🇨🇳_CN_中国_2
-      - 🇸🇬_CN_中国->🇸🇬_SG_新加坡_3
-      - 🇸🇬_CN_中国->🇸🇬_SG_新加坡_4
-      - 🇸🇬_CN_中国->🇸🇬_SG_新加坡_1
-      - 🇦🇺+AU+3｜openit.ml
-      - 🇦🇺+澳大利亚+010
-      - 🇦🇺+澳大利亚+009
-      - 🇱🇹_CN_中国->🇱🇹_LT_立陶宛_2
-      - 🇭🇰_CN_中国->🇭🇰_HK_香港_1
-      - 🇱🇹_CN_中国->🇱🇹_LT_立陶宛_1
-      - 🇺🇸美国_06152305
-      - 🇨🇦+加拿大+001
-      - 🇺🇸+US+5｜openit.ml
-      - 🇺🇸美国(油管:破解资源君2.0)_1
-      - 🇺🇸+US+6｜openit.ml
-      - 🇺🇸+US+23｜openit.ml
       - 🇭🇰_CN_中国->🇭🇰_HK_香港_2
-      - 🇺🇸美国(油管:破解资源君2.0)_2
+      - 未知_0620429
+      - 🇱🇹_CN_中国->🇱🇹_LT_立陶宛_1
+      - 🇱🇹_CN_中国->🇱🇹_LT_立陶宛_2
       - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)
-      - 🇺🇸_US_美国_1
-      - 🇸🇬_CN_中国->🇸🇬_SG_新加坡_2
-      - IR+1｜openit.ml
-      - IR+2｜openit.ml
+      - 🇺🇸+US+19｜openit.ml
+      - 🇺🇸+US+26｜openit.ml
+      - 🇨🇳_CN_中国_1
+      - 🇺🇸github.com/freefq-美国德克萨斯州达拉斯Oracle(Zenedge)1
+      - 🇨🇳+CN+9｜openit.ml
+      - 🇺🇸+US+25｜openit.ml
+      - 🇺🇸+US+14｜openit.ml
+      - 🇰🇷韩国_0615109
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
+      - unknown+4｜openit.ml
+      - unknown+1｜openit.ml
+      - unknown+3｜openit.ml
       - 🇨🇳_CN_中国_2
-      - 🇸🇬_CN_中国->🇸🇬_SG_新加坡_3
-      - 🇸🇬_CN_中国->🇸🇬_SG_新加坡_4
-      - 🇸🇬_CN_中国->🇸🇬_SG_新加坡_1
-      - 🇦🇺+AU+3｜openit.ml
-      - 🇦🇺+澳大利亚+010
-      - 🇦🇺+澳大利亚+009
-      - 🇱🇹_CN_中国->🇱🇹_LT_立陶宛_2
-      - 🇭🇰_CN_中国->🇭🇰_HK_香港_1
-      - 🇱🇹_CN_中国->🇱🇹_LT_立陶宛_1
-      - 🇺🇸美国_06152305
-      - 🇨🇦+加拿大+001
-      - 🇺🇸+US+5｜openit.ml
-      - 🇺🇸美国(油管:破解资源君2.0)_1
-      - 🇺🇸+US+6｜openit.ml
-      - 🇺🇸+US+23｜openit.ml
       - 🇭🇰_CN_中国->🇭🇰_HK_香港_2
-      - 🇺🇸美国(油管:破解资源君2.0)_2
+      - 未知_0620429
+      - 🇱🇹_CN_中国->🇱🇹_LT_立陶宛_1
+      - 🇱🇹_CN_中国->🇱🇹_LT_立陶宛_2
       - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)
-      - 🇺🇸_US_美国_1
-      - 🇸🇬_CN_中国->🇸🇬_SG_新加坡_2
-      - IR+1｜openit.ml
-      - IR+2｜openit.ml
+      - 🇺🇸+US+19｜openit.ml
+      - 🇺🇸+US+26｜openit.ml
+      - 🇨🇳_CN_中国_1
+      - 🇺🇸github.com/freefq-美国德克萨斯州达拉斯Oracle(Zenedge)1
+      - 🇨🇳+CN+9｜openit.ml
+      - 🇺🇸+US+25｜openit.ml
+      - 🇺🇸+US+14｜openit.ml
+      - 🇰🇷韩国_0615109
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
+      - unknown+4｜openit.ml
+      - unknown+1｜openit.ml
+      - unknown+3｜openit.ml
       - 🇨🇳_CN_中国_2
-      - 🇸🇬_CN_中国->🇸🇬_SG_新加坡_3
-      - 🇸🇬_CN_中国->🇸🇬_SG_新加坡_4
-      - 🇸🇬_CN_中国->🇸🇬_SG_新加坡_1
-      - 🇦🇺+AU+3｜openit.ml
-      - 🇦🇺+澳大利亚+010
-      - 🇦🇺+澳大利亚+009
-      - 🇱🇹_CN_中国->🇱🇹_LT_立陶宛_2
-      - 🇭🇰_CN_中国->🇭🇰_HK_香港_1
-      - 🇱🇹_CN_中国->🇱🇹_LT_立陶宛_1
-      - 🇺🇸美国_06152305
-      - 🇨🇦+加拿大+001
-      - 🇺🇸+US+5｜openit.ml
-      - 🇺🇸美国(油管:破解资源君2.0)_1
-      - 🇺🇸+US+6｜openit.ml
-      - 🇺🇸+US+23｜openit.ml
       - 🇭🇰_CN_中国->🇭🇰_HK_香港_2
-      - 🇺🇸美国(油管:破解资源君2.0)_2
+      - 未知_0620429
+      - 🇱🇹_CN_中国->🇱🇹_LT_立陶宛_1
+      - 🇱🇹_CN_中国->🇱🇹_LT_立陶宛_2
       - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)
-      - 🇺🇸_US_美国_1
-      - 🇸🇬_CN_中国->🇸🇬_SG_新加坡_2
-      - IR+1｜openit.ml
-      - IR+2｜openit.ml
+      - 🇺🇸+US+19｜openit.ml
+      - 🇺🇸+US+26｜openit.ml
+      - 🇨🇳_CN_中国_1
+      - 🇺🇸github.com/freefq-美国德克萨斯州达拉斯Oracle(Zenedge)1
+      - 🇨🇳+CN+9｜openit.ml
+      - 🇺🇸+US+25｜openit.ml
+      - 🇺🇸+US+14｜openit.ml
+      - 🇰🇷韩国_0615109
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -233,29 +191,23 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - unknown+4｜openit.ml
+      - unknown+1｜openit.ml
+      - unknown+3｜openit.ml
       - 🇨🇳_CN_中国_2
-      - 🇸🇬_CN_中国->🇸🇬_SG_新加坡_3
-      - 🇸🇬_CN_中国->🇸🇬_SG_新加坡_4
-      - 🇸🇬_CN_中国->🇸🇬_SG_新加坡_1
-      - 🇦🇺+AU+3｜openit.ml
-      - 🇦🇺+澳大利亚+010
-      - 🇦🇺+澳大利亚+009
-      - 🇱🇹_CN_中国->🇱🇹_LT_立陶宛_2
-      - 🇭🇰_CN_中国->🇭🇰_HK_香港_1
-      - 🇱🇹_CN_中国->🇱🇹_LT_立陶宛_1
-      - 🇺🇸美国_06152305
-      - 🇨🇦+加拿大+001
-      - 🇺🇸+US+5｜openit.ml
-      - 🇺🇸美国(油管:破解资源君2.0)_1
-      - 🇺🇸+US+6｜openit.ml
-      - 🇺🇸+US+23｜openit.ml
       - 🇭🇰_CN_中国->🇭🇰_HK_香港_2
-      - 🇺🇸美国(油管:破解资源君2.0)_2
+      - 未知_0620429
+      - 🇱🇹_CN_中国->🇱🇹_LT_立陶宛_1
+      - 🇱🇹_CN_中国->🇱🇹_LT_立陶宛_2
       - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)
-      - 🇺🇸_US_美国_1
-      - 🇸🇬_CN_中国->🇸🇬_SG_新加坡_2
-      - IR+1｜openit.ml
-      - IR+2｜openit.ml
+      - 🇺🇸+US+19｜openit.ml
+      - 🇺🇸+US+26｜openit.ml
+      - 🇨🇳_CN_中国_1
+      - 🇺🇸github.com/freefq-美国德克萨斯州达拉斯Oracle(Zenedge)1
+      - 🇨🇳+CN+9｜openit.ml
+      - 🇺🇸+US+25｜openit.ml
+      - 🇺🇸+US+14｜openit.ml
+      - 🇰🇷韩国_0615109
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
